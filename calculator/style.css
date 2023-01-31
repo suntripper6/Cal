@@ -1,0 +1,65 @@
+/* ELEMENTS */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  border: 1px solid #000000;
+}
+
+button {
+  background: #a4c7e8;
+  height: 70px;
+  width: 70px;
+  font-size: 2rem;
+}
+
+button:hover {
+  color: #ffffff;
+}
+
+/* CLASSES */
+.calculator {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-output {
+  margin-top: 10px;
+  text-align: right;
+  border: none;
+  height: 25px;
+  width: 275px;
+}
+
+/* ELEMENTS */
+#add,
+#subtract,
+#multiply,
+#divide {
+  background: #3cb728;
+  opacity: 45%;
+}
+
+#all-clear {
+  background: #f6da91;
+}
+
+#equals {
+  background: #f6ed9c;
+}
+
+#decimal {
+  background: #f3b1b1;
+}
